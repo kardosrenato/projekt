@@ -1,0 +1,71 @@
+You need 2 players to play this game. This game is based on the game BlazBlue Calamity Trigger.
+When the game starts both players have to choose a character, P1 from the left and P2 from the right side.
+After that the game starts the players start at the same side as to which they chose the characters from.
+Every character have 3 and half attacks(A,B,C,D attacks) attack A is a weak attack which deal low damage and have little range but you recover faster,
+attack B deal mid damage on mid range and have a moderate recovery rate, attack C is your heavy attack it usually have a long range and high damage but takes longer to recover.
+Now finally attack D its your Drive attack it differs from character to character for example lets look at Ragna(P1) and Haku-men(P2)
+Ragna's drive deals the same amount of damage as a heavy attack twice and after every hit it recovers 1 hp, but on the other hand Haku-men's drive places a barrier which if gets hit with either a heavy
+or drive attack it nullifies damage taken and deals 3 damage to the enemy.
+On the right and left down side of the screen you can see a bar its your HEAT you get heat from dealing or taking damage.
+Except if you are Haku-men cause he regenerates heat automatically.
+Under your health and the timer you can see 2-2 squares it shows how much you won, it turns to red every time you win.
+Now that you know the basics you can read the moves.
+
+Basic Moves
+(Every character can jump twice except Tager)
+P1
+attack weak-E
+attack mid-R
+attack heavy-T
+attack drive-F
+jump-W
+move left(guard)-A
+move right-D
+crouch-S
+Burst-Q(It hits the enemy back but you can only us it once/round)
+
+P2
+move right(guard)-right arrow
+move left-left arrow
+jump-up arrow
+crouch-down arrow
+attack weak-I
+attack mid-J
+attack heavy-L
+attack drive-K
+Burst-O(It hits the enemy back but you can only us it once/round)
+
+Character specific moves
+(from top)
+P1 characters:
+Nu:
+Sickle Storm-S+D+F
+Spike Chaser-A+S+F
+Gravity Seed-A+S+T
+Calamity Sword-A+D+F(with 50% heat)
+Legacy Edge-A+D+R(with 50% heat)
+Sword of Destruction-A+S+E(with 100% heat if enemy under 35% hp)
+
+Ragna:
+Hells's Fang-A+S+E
+   Additional Blow-A+S+F (During Hell's Fang)
+Inferno Divider-S+D+T
+   Uppercut-S+D+T (During Inferno Diveder)
+       Straight Punch-S+D+T(During Uppercut)
+       Heel Drop-A+S+T(During Uppercut)
+Gauntlet Hades-A+S+R
+   Kicking Lift+A+S+F(During Gauntlet Hades)
+Dead Spike-A+S+F
+Carnage Scissors-A+S+D+F(with 50% heat)
+Devoured by Darkness-A+D+F(with 50% heat)
+Black Onslaught-A+S+T(with 100% heat if enemy is under 35 hp)
+
+P2 characters:
+
+Haku-men:
+Guren-left+down+I
+Renka-down+right+J
+Zantetsu-left+right+L
+Kokūjin: Yukikaze-left+down+K(with 50% heat)
+ Kokūjin: Shippū-down+right+L(with 50% heat)
+Kokūjin Ōgi: Mugen-left+right+I(with 100% heat)

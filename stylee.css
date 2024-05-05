@@ -1,0 +1,88 @@
+*,*::after,*::before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+    font-size: 16px;
+    margin: 0;
+    background: black;
+}
+
+svg text{
+    stroke: orange;
+    font-size: 150px;
+    font-weight: 700;
+    stroke-width: 5;
+    animation: textAnimate 5s;
+}
+
+@keyframes textAnimate{
+    0%{
+        stroke-dasharray: 0 50%;
+
+    }
+    100%{
+        stroke-dasharray: 50% 0;
+    }
+}
+
+.kezdolap{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+    color: orange;
+    text-transform: uppercase;
+    width: 95%;
+    -webkit-box-reflect: below 1px linear-gardient(transparent, solid orange);
+    line-height: 1.6em;
+    outline: none;
+    animation: animate 5s linear infinite;
+    border-radius: 15px;
+
+}
+
+a
+{
+    position: absolute;
+    top: 90%;
+    right: 42%;
+    background: black;
+    color: rgb(87, 64, 22);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+a:hover
+{
+    background: var(--clr);
+    letter-spacing: 0.25em;
+    box-shadow:  0 0 35px var(--clr);
+}
+
+@keyframes animate
+{
+  0%{
+    color: orange;
+    box-shadow: none;
+  }
+  100%{
+    color: wheat;
+    box-shadow: 0 0 10px orange,
+    0 0 20px orange,
+    0 0 40px orange,
+    0 0 80px orange,
+    0 0 160px orange;
+  }
+}

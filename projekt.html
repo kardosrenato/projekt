@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Főoldal</title>
+    <link rel="stylesheet" href="fooldal.css">
+</head>
+
+<body>
+
+    <div class="rolunk">
+        <h1>Üdvözöllek az oldalunkon</h1>
+       
+        <p><span class="rolunk-gomb-container"><span onclick="window.location.href='rolunk2.html'" class="rolunk-gomb">Tudj meg többet rólunk!</span></span></p>
+        <p style="font-size: 25px;">Ha a csapat bármely tagjával fel szeretné venni a kapcsolatot az Facebook-on lehetséges!</p>
+        <span id="icon" class="links">Színváltás</span>
+        <p><a href="index.html" class="ide-oda"><span>Előző oldal!</span></a></p>
+    </div>
+
+    
+    <a href="Játék leírás.txt" class="tajek" target="_blank"> Magyar:Tájékoztató</a>
+    <a href="Játék leírás angol.txt" class="tajek2" target="_blank"> English:Prospectus</a>
+   
+
+    <footer>
+        <h2 style="text-align:center" class="szin">Játékunk</h2>
+        <div class="oszlop">
+            
+        </div>
+    </footer>
+    <iframe src="https://scratch.mit.edu/projects/930923722/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen class="jatek-iframe"></iframe>
+
+   
+
+    <script>
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function () {
+            if (document.body.classList.contains("masikszin")) {
+                document.body.classList.remove("masikszin");
+            } else {
+                document.body.classList.add("masikszin");
+            }
+        }
+    </script>
+
+</body>
+
+</html>

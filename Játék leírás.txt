@@ -1,0 +1,76 @@
+Ebben a játékban 2 játékos harcol egymás ellen!A játék úgy kezdődik, hogy karaktert választanak,
+ezt követően a 2. játékos a kép jobb az 1. játékos pedig a kép bal oldalára kerül.
+Minden karakternek 4 alap támadása van: gyenge, közepes, erős és drive
+minnél erősebb egy támadás annál több idő után tudsz újra mozogni, de többet sebez.
+a drive támadás ugyan annyit sebez mint az erős de karaktertől függően változik, vegyük példának
+az 1. játékos legalsó és a 2. játékos legfelső karakterét(Ragna és Haku-men).
+Ragna képessége hogy 2 alaklommal sebez és minden sebzés után 1 hp-t visszatölt
+Haku-men képessége 1 pajzs ami megéllítja az ellenfél támadását és vissza sebez.
+ezek mellet minden játékosnak van 1 burst-nek nevezett képessége amit körönként 1 alkalommal használható.
+A burst nem sebez de nagyon messzire ellöki az ellenfelet, ez támadás közben és alatt is használható.
+A kép jobb és bal sarkában egy csík látható ez a heat ha sebződsz vagy sebzel akkor töltődik(kivéve haku-men
+mert nála alapból töltődik).
+Az élet alatt pedig látható hogy mennyit kell nyerni(szürke négyzetek) ami pirosra vált nyerések után.
+Most, hogy az alap dolgok megvannak jöhetnek a mozgások.
+
+alap mozgások
+(minden karakter kétszer ugrik)
+P1
+gyenge támadás-E
+közepes támadás-R
+nehéz támadás-T
+drive támadás-F
+ugrás-W
+balra(védekezés)-A
+jobbra-D
+guggolás-S
+Burst-Q
+
+P2
+jobbra(védekezés)-jobb nyíl
+balra-bal nyíl
+ugrás-fel nyíl
+guggolás-le nyíl
+gyenge támadás-I
+közepes támadás-J
+nehéz támadás-L
+drive támadás-K
+Burst-O
+
+karakterek támadásai
+(karakterek fentről lefelé)
+A támadások úgy vannak leírva hogy <név>-<gombok amiket le kell nyomni>(<mi kell hogy használd>)
+P1 karakterek:
+Nu:
+Sickle Storm-S+D+F
+Spike Chaser-A+S+F
+Gravity Seed-A+S+T
+Calamity Sword-A+D+F(50% heat)
+Legacy Edge-A+D+R(with 50% heat)
+Sword of Destruction-A+S+E(100% heat ha az ellenfél 35 hp alatt van)
+
+Ragna:
+Hells's Fang-A+S+E
+   Additional Blow-A+S+F (Hell's Fang közben)
+Inferno Divider-S+D+T
+   Uppercut-S+D+T (Inferno Diveder közben)
+       Straight Punch-S+D+T(Uppercut közben)
+       Heel Drop-A+S+T(Uppercut közben)
+Gauntlet Hades-A+S+R
+   Kicking Lift+A+S+F(Gauntlet Hades közben)
+Dead Spike-A+S+F
+Carnage Scissors-A+S+D+F(50% heat)
+Devoured by Darkness-A+D+F(50% heat)
+Black Onslaught-A+S+T(100% heat ha az ellenség 35 hp alatt van)
+
+P2 characters:
+
+Haku-men:
+Guren-left+down+I
+Renka-down+right+J
+Zantetsu-left+right+L
+Kokūjin: Yukikaze-left+down+K(50% heat)
+Kokūjin: Shippū-down+right+L(50% heat)
+Kokūjin Ōgi: Mugen-left+right+I(100% heat)
+
+
